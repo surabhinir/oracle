@@ -7,9 +7,8 @@ metadata:
 spec:
   storageClassName: manual
   capacity:
-    storage: 20Gi
+    storage: 10Gi
   accessModes:
     - ReadWriteOnce
   hostPath:
-    # this is the path on laptop?
-    path: "C:\Users\vmadmin\oraclepv"
+    path: "/C/Users/vmadmin/oraclepv"
