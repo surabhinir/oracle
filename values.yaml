@@ -57,4 +57,4 @@ nodeLabels:
 
 service:
   type: ClusterIP
-  internalDomain: 62ff5e6ddf4a4bfd8293.westeurope.aksapp.io
+  internalDomain:
