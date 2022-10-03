@@ -79,7 +79,7 @@ spec:
       volumes:
         - name: datamount
           persistentVolumeClaim:
-            claimName: {{ template "fullname" . }}
+            claimName: localpvc
         - name: oracle-initsql
           configMap:
             name: oracle-initsql-config
