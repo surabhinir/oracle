@@ -41,7 +41,7 @@ replicas: 1
 
 ## name of image
 ###image: commerceimageoracle-db:19.3.0-ee
-image: oracle-database:19.3.0-ee
+image: commerceimages.azurecr.io/oracle-database:19.3.0-ee
 
 ## image pull policy, IfNotPresent or Always
 imagePullPolicy: Always
