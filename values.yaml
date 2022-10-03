@@ -40,8 +40,8 @@ availabilityDomain:
 replicas: 1
 
 ## name of image
-###image: commerceimages.azurecr.io/oracle-db:19.3.0-ee
-image: docker.io/uwangjia/oracle-database:19.3.0-ee
+###image: commerceimageoracle-db:19.3.0-ee
+image: oracle-database:19.3.0-ee
 
 ## image pull policy, IfNotPresent or Always
 imagePullPolicy: Always
