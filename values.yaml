@@ -40,13 +40,14 @@ availabilityDomain:
 replicas: 1
 
 ## name of image
-image: commerceimages.azurecr.io/oracle-db:19.3.0-ee
+##image: commerceimages.azurecr.io/oracle-db:19.3.0-ee
+image: uwangjia/oracle-database:19.3.0-ee
 
 ## image pull policy, IfNotPresent or Always
 imagePullPolicy: Always
 
 ## container registry login/password
-imagePullSecrets: azurecrkey
+####imagePullSecrets: azurecrkey
 
 ## Deploy only on nodes having required labels .
 ## Format label_name : label_value . eg pool: sidb
