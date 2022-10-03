@@ -5,3 +5,4 @@ metadata:
 data:
   init.sql: |
     alter system set db_create_file_dest = '/opt/oracle/oradata/ORCLCDB' scope=both;
+    ALTER SYSTEM SET log_archive_dest_1='LOCATION=/opt/oracle/oradata/ORCLCDB/ORCLPDB1/archive';
