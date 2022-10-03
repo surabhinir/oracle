@@ -47,7 +47,7 @@ image: docker.io/uwangjia/oracle-database:19.3.0-ee
 imagePullPolicy: Always
 
 ## container registry login/password
-imagePullSecrets: regcred
+####imagePullSecrets: regcred
 
 ## Deploy only on nodes having required labels .
 ## Format label_name : label_value . eg pool: sidb
