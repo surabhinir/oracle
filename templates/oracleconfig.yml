@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: oracle-initsql-config
+data:
+  init.sql: |
+    alter system set db_create_file_dest = '/opt/oracle/oradata/ORCLCDB' scope=both;
