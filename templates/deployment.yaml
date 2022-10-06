@@ -23,7 +23,7 @@ spec:
       labels:
         app: {{ template "fullname" . }}
     spec:
-      terminationGracePeriodSeconds: 30
+      terminationGracePeriodSeconds: {{ .Values.terminationGracePeriodSeconds }}
     {{- if .Values.imagePullSecrets}}
       imagePullSecrets:
         - name: {{ .Values.imagePullSecrets }}
