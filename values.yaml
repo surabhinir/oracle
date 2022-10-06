@@ -54,7 +54,8 @@ imagePullSecrets: azurecrkeys
 ## Leave empty if there is no such requirement
 nodeLabels:
 #  pool: sidb
-
+preStopHook: true
+terminationGracePeriodSeconds: 180
 service:
   type: ClusterIP
   internalDomain:
